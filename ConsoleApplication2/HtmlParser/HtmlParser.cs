@@ -11,7 +11,7 @@ namespace ConsoleApplication2
 
         private static Parser<string> FullNode =>
             from openTag in TagParser.OpenTag
-            from content in Item.Many()
+            from content in Item.Token().Many()
             from closeTag in TagParser.CloseTag(openTag)
             select openTag + string.Join(string.Empty, content) + closeTag;
 
@@ -20,14 +20,14 @@ namespace ConsoleApplication2
         private static Parser<string> Node(string tagName) =>
             from openTag in TagParser.OpenTag
             where openTag.Name == tagName
-            from content in Item.Many()
+            from content in Item.Token().Many()
             from closeTag in TagParser.CloseTag(openTag)
             select string.Join(string.Empty, content);
 
         private static Parser<string> Node(Attribute attribute) =>
             from openTag in TagParser.OpenTag
             where ((OpenTag)openTag).Attributes.Any(atr => atr.Key == attribute.Name && atr.Value == attribute.Value)
-            from content in Item.Many()
+            from content in Item.Token().Many()
             from closeTag in TagParser.CloseTag(openTag)
             select string.Join(string.Empty, content);
 
@@ -35,7 +35,7 @@ namespace ConsoleApplication2
             from openTag in TagParser.OpenTag
             where openTag.Name == tagName
             where ((OpenTag)openTag).Attributes.Any(atr => atr.Key == attribute.Name && atr.Value == attribute.Value)
-            from content in Item.Many()
+            from content in Item.Token().Many()
             from closeTag in TagParser.CloseTag(openTag)
             select string.Join(string.Empty, content);
 

@@ -12,7 +12,7 @@ namespace ConsoleApplication2
 
         private static Parser<ITag> Tag(Parser<ITag> content) =>
             from beginTag in Parse.Char('<')
-            from c in content
+            from c in content.Token()
             from endTag in Parse.Char('>')
             select c;
 
@@ -32,6 +32,7 @@ namespace ConsoleApplication2
         public static Parser<ITag> OpenCloseTag =>
             Tag(
                 from id in Identifier
+                from attributes in AttributeParser.Attribute.Many()
                 from slash in Parse.Char('/')
                 select new OpenCloseTag(id));
     }
