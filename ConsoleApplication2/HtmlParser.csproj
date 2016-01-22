@@ -47,12 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HtmlParser\AttributeParser.cs" />
     <Compile Include="HtmlParser\Elements\Attribute.cs" />
     <Compile Include="HtmlParser\Elements\CloseTag.cs" />
     <Compile Include="HtmlParser\Elements\ITag.cs" />
     <Compile Include="HtmlParser\Elements\OpenCloseTag.cs" />
     <Compile Include="HtmlParser\Elements\OpenTag.cs" />
     <Compile Include="HtmlParser\HtmlParser.cs" />
+    <Compile Include="HtmlParser\TagParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
