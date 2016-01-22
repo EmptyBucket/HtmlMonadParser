@@ -1,14 +1,20 @@
-﻿namespace ConsoleApplication2
-{
-    public class OpenCloseTag : ITag
-    {
-        public string Name { get; }
-        public override string ToString() =>
-            $"<{Name}/>";
+﻿using System.Collections.Generic;
+using System.Linq;
 
-        public OpenCloseTag(string name)
+namespace ConsoleApplication2
+{
+    public class OpenCloseTag : OpenTag
+    {
+        public override string ToString()
         {
-            Name = name;
+            var listStr = new List<string> { Name };
+            var atributeStr = Attributes.Select(atr => $"{atr.Key}=\"{atr.Value}\"");
+            listStr.AddRange(atributeStr);
+            return $"<{string.Join(" ", listStr)}/>";
         }
+
+        public OpenCloseTag(string name) : base(name) { }
+
+        public OpenCloseTag(string name, IReadOnlyCollection<Attribute> attributte) : base(name, attributte) { }
     }
 }
