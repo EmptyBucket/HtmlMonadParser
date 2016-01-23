@@ -7,8 +7,8 @@
     <ProjectGuid>{14CB5DC3-29BB-4571-AD27-4D9F23B128E5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication2</RootNamespace>
-    <AssemblyName>ConsoleApplication2</AssemblyName>
+    <RootNamespace>HtmlParser</RootNamespace>
+    <AssemblyName>HtmlParser</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,7 +53,7 @@
     <Compile Include="HtmlParser\Elements\ITag.cs" />
     <Compile Include="HtmlParser\Elements\OpenCloseTag.cs" />
     <Compile Include="HtmlParser\Elements\OpenTag.cs" />
-    <Compile Include="HtmlParser\HtmlParser.cs" />
+    <Compile Include="HtmlParser\MonadHtmlParser.cs" />
     <Compile Include="HtmlParser\TagParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,6 +61,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace ConsoleApplication2
+namespace HtmlParser
 {
     public class OpenCloseTag : OpenTag
     {

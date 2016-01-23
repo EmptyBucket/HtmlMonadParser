@@ -1,0 +1,139 @@
+﻿<div class="registerBox registerBoxBank margBtm20">
+            
+                
+                    
+                        <a href="/epz/order/notice/printForm/view.html?regNumber=0122200002516000125"
+                           target="_blank" class="printLink"></a>
+                    
+                    
+                
+            
+
+            <table cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="tenderTd">
+                        <dl>
+                            <dt class="orange"
+                                    >
+                                
+                                    
+                                    
+                                        Электронный аукцион
+                                    
+                                
+                            </dt>
+                        </dl>
+                        <dd>
+                                
+                            
+                        </dd>
+                        
+                            
+                                
+                                    <span class="fzNews noWrap">Подача заявок / <span
+                                            class="orange">44-ФЗ</span></span>
+                                
+                                
+                                
+                                
+                                
+                            
+                        
+                        
+                        
+                        
+                        <dd>
+                            <strong>
+                                22 050<span>,00</span>
+                            </strong><br/><span class="currency">Российский рубль</span>
+                        </dd>
+                    </td>
+
+                    <td class="descriptTenderTd">
+                        <dl>
+                            <dt>
+                                <a target="_blank"
+                                   href="/epz/order/notice/ea44/view/common-info.html?regNumber=0122200002516000125">
+                                    № 0122200002516000125
+                                </a>
+                                
+                                
+                                
+                            </dt>
+                            <dd class="nameOrganization">
+                                <a target="_blank"
+                                   href="http://zakupki.gov.ru/pgz/public/action/organization/view?source=epz&organizationId=742359"
+                                   onclick="window.open(this.href); return false;"
+                                   title="КОМИТЕТ ГОСУДАРСТВЕННОГО ЗАКАЗА ПРАВИТЕЛЬСТВА ХАБАРОВСКОГО КРАЯ">
+                                    КОМИТЕТ ГОСУДАРСТВЕННОГО ЗАКАЗА ПРАВИТЕЛЬСТВА ХАБАРОВСКОГО КРАЯ
+                                </a>
+                            </dd>
+                            <dd>
+                                &#1055;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1072; &#1087;&#1083;&#1072;&#1089;&#1090;&#1099;&#1088;&#1103; &#1092;&#1080;&#1082;&#1089;&#1080;&#1088;&#1091;&#1102;&#1097;&#1077;&#1075;&#1086; &#1076;&#1083;&#1103; &#1085;&#1091;&#1078;&#1076; &#1082;&#1088;&#1072;&#1077;&#1074;&#1086;&#1075;&#1086; &#1075;&#1086;&#1089;&#1091;&#1076;&#1072;&#1088;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086; &#1073;&#1102;&#1076;&#1078;&#1077;&#1090;&#1085;&#1086;&#1075;&#1086; &#1091;&#1095;&#1088;&#1077;&#1078;&#1076;&#1077;&#1085;&#1080;&#1103; &#1079;&#1076;&#1088;&#1072;&#1074;&#1086;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1103; &laquo;&#1056;&#1086;&#1076;&#1080;&#1083;&#1100;&#1085;&#1099;&#1081; &#1076;&#1086;&#1084; &#8470; 3&raquo; &#1084;&#1080;&#1085;&#1080;&#1089;&#1090;&#1077;&#1088;&#1089;&#1090;&#1074;&#1072; &#1079;&#1076;&#1088;&#1072;&#1074;&#1086;&#1086;&#1093;&#1088;&#1072;&#1085;&#1077;&#1085;&#1080;&#1103; &#1061;&#1072;&#1073;&#1072;&#1088;&#1086;&#1074;&#1089;&#1082;&#1086;&#1075;&#1086; &#1082;&#1088;&#1072;&#1103;
+                            </dd>
+                        </dl>
+                    </td>
+
+                    <td class="amountTenderTd">
+                        <ul>
+                            <li><label>Размещено:</label> 22.01.2016</li>
+                            <li><label>Обновлено:</label> 22.01.2016</li>
+                        </ul>
+                    </td>
+                </tr>
+                
+            </table>
+            <div class="reportBox">
+                <ul>
+                    <ul>
+                            
+                        <li><a href="/epz/order/notice/ea44/view/common-info.html?regNumber=0122200002516000125"
+                               target="_blank">
+                            Сведения</a>
+                        </li>
+
+                            
+                        <li>/&nbsp;<a href="/epz/order/notice/ea44/view/documents.html?regNumber=0122200002516000125"
+                                      target="_blank">
+                            Документы</a>
+                        </li>
+
+                            
+                        
+
+                            
+                            <li>/&nbsp;<a
+                                    onclick="openComplaintQuickSearch('0122200002516000125', false, false, true)"
+                                    style="cursor: pointer;">
+                                Жалобы</a>
+                            </li>
+
+                        
+                            
+                            
+                            
+                            
+                        
+
+                            
+                            
+                            
+                        
+
+                            
+                            
+                        
+
+                            
+                        
+                        
+                            <li>/&nbsp;<a onclick="bankGuaranteeUrl('0122200002516000125')"
+                                          style="cursor: pointer;">
+                                Банковские гарантии</a>
+                            </li>
+                        
+                        
+                    </ul>
+                </ul>
+            </div>
+        </div>
